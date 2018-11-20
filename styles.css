@@ -1,0 +1,286 @@
+/*Colour pallete
+-----------------
+#5F9EA0 CadeBlue
+#696969 Dimgray
+#663399 Rebbecapurpple
+#008080 Teal
+----------------*/
+
+
+/*Global Styles
+------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h3{
+    margin: 0;
+}
+
+header{
+    padding-top: 30px;
+/*    background: url(../Images/cape-town-table-mountain%20night.jpg) no-repeat fixed 0px 0px /cover;*/
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.profile-img {
+    height: 320px;
+    border-radius: 45%;
+   
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+.btn{
+    text-transform: none;
+    background: red;
+    color: white;
+    padding: 10px;
+    display:inline-block;
+}
+body{
+    
+   font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px 60px;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 80px;
+}
+a{
+    color: blue;
+};
+a:hover{
+    text-decoration: none;
+}
+.kopano h3 {
+    padding-top: 10px;
+    
+}
+/*Header and Footer
+--------------------*/
+header{
+    
+    background:#696969;
+    color:black;
+
+}
+
+.column-wide {
+    width: 70%;
+    float: right;
+    padding-left: 300px;
+    padding-top: 140px;
+    min-height: 175px;
+    border: 1px solid none;
+    color: orange;
+}
+.ig{
+    color: deeppink;
+}
+
+.fb{
+    color: blue;
+}
+
+.linkedin{
+    color: blue;
+}
+
+.twitter{
+    color: lightblue;
+}
+
+.mail{
+    color: white;
+}
+
+
+.column {
+     width: 70%;
+    float: right;
+    padding-left: 25px;
+
+}
+
+
+.column-narrow {
+    width: 30%;
+    float: left;
+/*    padding-right: 50px;*/
+    min-height: 175px;
+/*    border: 1px solid black;*/
+}
+
+ p+h3{
+    margin-top: 25px;
+}
+
+h4~p {
+    margin: 0;
+}
+h3~h4 {
+    margin-bottom:0;
+}
+/* Header
+------------------*/
+header p {
+/*    color: blanchedalmond;*/
+    color: black;
+}
+
+.ball {
+    width: 50px;
+    height: 40px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    animation: bounce 4s ease-out 2s infinite;
+    margin-left: 700px;
+}
+.dove{
+    width: 100px;
+    margin-left: 100px;
+    padding-top: 0px;
+    fill: orange;
+}
+
+.cat{
+    width:100px;
+    margin-left: 700px;
+    margin-top: -100px;
+    
+}
+
+@keyframes bounce{
+    0%{
+        top: 0px;
+    }
+    20% {
+        top: 450px;
+        background: grey; 
+/*        margin-left: 400px;*/
+    }
+    
+     
+    40% {
+        top: 300px;
+        background: lightblue; 
+        margin-left: 400px;
+    }
+    
+     
+    50% {
+        top: 300px;
+        background: black;
+        margin-left: 280px;
+    }
+    
+    70% {
+        top: 450px;
+        background: lightblue;
+        margin-left: 765px;
+    }
+    
+    80% {
+        top: 450px;
+        background: red;
+        margin-left: -400px;
+    }
+    
+    90% {
+        top: -50px;
+        background: grey;
+        margin-left: -400px;
+    }
+}
+
+
+/* Footer
+------------------*/
+footer{
+    text-align: center;
+    background: url(../Images/cape-town-table-mountain%20night.jpg) no-repeat fixed 0px 20px /cover;
+    color: blue;
+}
+
+.copywright{
+    color: orange;
+    font-weight: 1000;
+    
+}
+.contact-info a {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    display: inline-block;
+       
+}
+/*Navigation
+--------------------*/
+nav {
+    text-align: center;
+    background: white;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+nav a:hover{
+    text-decoration: underline black; 
+}
+
+
+/*Work Experiece
+--------------------*/
+.work{
+/*    background: #DCDCDC;*/
+    background: url(../Images/profile3.jpg) no-repeat fixed 0px 20px /cover;
+}
+
+h3 ~ p {
+/*    margin: 0;*/
+}
+
+/*Education
+--------------------*/
+.education{
+    background: #696969;
+/*    background: url(../Images/cape-town-table-mountain%20night.jpg)  no-repeat fixed 0px 0px  /cover;*/
+;
+
+}
