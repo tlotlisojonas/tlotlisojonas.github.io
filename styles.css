@@ -660,7 +660,18 @@ h3 ~ p {
         header h3{
         font-size: 15px;
     }
+    .profile-img{
 
+        margin-top: -20px;
+        height: 250px;
+        width: 230px;
+    }
+
+ 
 
 }
+
+
+
+
 
