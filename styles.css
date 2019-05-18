@@ -39,7 +39,7 @@ header .column h3{
 }
 
 .profile-img {
-    height: 320px;
+    height: 350px;
     border-radius: 40%;
 
 
@@ -423,6 +423,23 @@ h3 ~ p {
     /* transition: transform .5s ease-in-out; */
 }
 
+@media (max-width:1220px){
+    header .column{
+    width: 100%;
+    }
+
+    header{
+    text-align: center;
+    }
+
+}
+
+@media (max-width:1220px){
+/*    Change header background to the online resume format*/
+    header h1 {
+/*        font-size: 70px;*/
+    }
+}
 
 
 @media (max-width:1030px){
@@ -591,12 +608,20 @@ h3 ~ p {
 .dropdown:hover .dropbtn {background-color: black; text-decoration: underline white}
 
 @media (max-width:660px){
+    
+    header h1{
+        font-size: 60px;
+    }
+    header h2{
+        font-size: 30px;
+    }
+    
     nav a {
-        font-size: 12px;
+        font-size: 10px;
     }
     .dropbtn{
 
-        font-size: 13px;
+        font-size: 10px;
         padding: 7px;
     }
     
@@ -620,9 +645,22 @@ h3 ~ p {
 
 }
 
+@media (max-width:460px){
+    
+    header{
+        padding-top: 0px;
+    }
+    header h1{
+        font-size: 50px;
+    }
+        header h2{
+        font-size: 30px;
+    }
+    }
+        header h3{
+        font-size: 15px;
+    }
 
 
-
-
-
+}
 
