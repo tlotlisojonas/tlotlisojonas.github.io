@@ -276,7 +276,12 @@ h3 ~ p {
     border: 1px solid none;
     color: orange;
     }
+    .profile-img{
 
+        margin-top: -20px;
+        height: 350px;
+        width: 230px;
+    }
 
 }
 
@@ -662,7 +667,7 @@ h3 ~ p {
     .profile-img{
 
         margin-top: -20px;
-        height: 300px;
+        height: 250px;
         width: 230px;
     }
 
