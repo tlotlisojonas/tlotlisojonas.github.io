@@ -276,9 +276,9 @@ h3 ~ p {
     border: 1px solid none;
     color: orange;
     }
-    .profile-img{
-        padding-top:10px;
-        height: 350px;
+    header .profile-img{
+       
+        height: 300px;
         width: 230px;
     }
 
