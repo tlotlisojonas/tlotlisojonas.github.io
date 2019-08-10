@@ -243,6 +243,11 @@ nav a:hover{
     background: url(profile3.jpg) no-repeat fixed 0px 20px /cover;
 }
 
+.work a{
+  text-decoration:none;
+  color:red;
+}
+
 h3 ~ p {
 /*    margin: 0;*/
 }
