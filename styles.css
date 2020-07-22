@@ -632,7 +632,7 @@ h3 ~ p {
 
 
     header {
-        padding-top: 0px;
+        padding-top: 20px;
     }
 
         header h1 {
@@ -683,6 +683,7 @@ h3 ~ p {
 
     .work h2 {
         font-size: 30px;
+        
     }
 
 
@@ -694,19 +695,18 @@ h3 ~ p {
         font-size:12px;
     }
 
-    .work{
-        background:white;
-        margin: 0px -25px ;
+    .work {
+        background: white;
+      
+     }
+
+    .content-wrap {
+        margin: 0 -20px 0 -20px;
     }
 
-    .education {
-        margin: 0px -25px;
-    }
+     
 
-    .contact-info {
-        
-        margin: 0px -25px;
-    }
+ 
 
     footer h2{
         font-size:35px;
@@ -715,6 +715,7 @@ h3 ~ p {
     footer p {
         font-size: 12px;
     }
+
 }
 
 
