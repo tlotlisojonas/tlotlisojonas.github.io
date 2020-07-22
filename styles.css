@@ -91,7 +91,7 @@ h1 {
 }
 a{
     color: blue;
-};
+}
 a:hover{
     text-decoration: none;
 }
@@ -179,14 +179,13 @@ header p {
 ------------------*/
 footer{
     text-align: center;
-    background: url(cape-town-table-mountain%20night.jpg) no-repeat fixed 0px 20px /cover;
+    background: url(cape-town-table-mountain%20night.jpg) no-repeat fixed 0px 20px;
     color: blue;
 }
 
-.copywright{
+.copywright {
     color: orange;
-    font-weight: 1000;
-
+    font-weight: 900;
 }
 .contact-info a {
     text-align: center;
@@ -240,7 +239,7 @@ nav a:hover{
 --------------------*/
 .work{
 /*    background: #DCDCDC;*/
-    background: url(profile3.jpg) no-repeat fixed 0px 20px /cover;
+    background: url(profile3.jpg) no-repeat fixed 0px 20px ;
 }
 
 .work a{
@@ -367,7 +366,7 @@ h3 ~ p {
     display: flex;
     max-height: 0px;
     justify-content: center;
-    align-items: centre;
+    align-items: center;
     margin-top: 0px;
     margin-right: 150px;
 }
@@ -500,7 +499,7 @@ h3 ~ p {
         float: right;
         display: flex;
         max-height: 0px;
-        align-items: centre;
+        align-items: center;
         margin-right: 16px;
     }
 
@@ -514,7 +513,7 @@ h3 ~ p {
     .circle {
         fill: #696969;
         stroke: black;
-        stroke-width: 9;;
+        stroke-width: 9;
         stroke-miterlimit: 10;
 
     }
@@ -597,7 +596,7 @@ h3 ~ p {
         text-decoration: none;
         display: block;
         text-align: left;
-        font-weight: 150;
+        font-weight: 100;
         font-size: 15px;
 }
 
