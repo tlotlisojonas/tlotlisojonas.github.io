@@ -257,7 +257,7 @@ h3 ~ p {
 .education{
     background: #696969;
 /*    background: url(../Images/cape-town-table-mountain%20night.jpg)  no-repeat fixed 0px 0px  /cover;*/
-;
+
 
 }
 
@@ -651,8 +651,8 @@ h3 ~ p {
 
     .profile-img {
         margin-top: 10px;
-        height: 100px;
-        width: 130px;
+        height: 120px;
+        width: 150px;
     }
 
     nav a {
@@ -696,6 +696,7 @@ h3 ~ p {
     }
 
     .work{
+        background:white;
         margin: 0px -25px ;
     }
 
