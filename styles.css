@@ -179,7 +179,7 @@ header p {
 ------------------*/
 footer{
     text-align: center;
-    background: url(cape-town-table-mountain%20night.jpg) no-repeat fixed 0px 20px;
+    background: url(cape-town-table-mountain%20night.jpg) no-repeat fixed 0px 20px /cover;
     color: blue;
 }
 
@@ -239,7 +239,7 @@ nav a:hover{
 --------------------*/
 .work{
 /*    background: #DCDCDC;*/
-    background: url(profile3.jpg) no-repeat fixed 0px 20px ;
+    background: url(profile3.jpg) no-repeat fixed 0px 20px /cover;
 }
 
 .work a{
