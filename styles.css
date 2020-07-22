@@ -701,7 +701,7 @@ h3 ~ p {
      }
 
     .content-wrap {
-        margin: 0 -20px 0 -20px;
+        margin-left: -20px;
     }
 
      
