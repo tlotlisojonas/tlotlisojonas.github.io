@@ -474,10 +474,6 @@ h3 ~ p {
     fill: blue;
     }
 
-    .work{
-         background: white;
-
-    }
 
 
 .contact-info a {
@@ -615,23 +611,7 @@ h3 ~ p {
 
 .dropdown:hover .dropbtn {background-color: black; text-decoration: underline white}
 
-@media (max-width:660px){
-    
-    header h1{
-        font-size: 60px;
-    }
-    header h2{
-        font-size: 30px;
-    }
-    
-    nav a {
-        font-size: 10px;
-    }
-    .dropbtn{
-
-        font-size: 10px;
-        padding: 7px;
-    }
+@media (max-width:668px){
     
     
     .side-bar {
@@ -651,32 +631,90 @@ h3 ~ p {
     background: black;
 }
 
-}
 
-@media (max-width:460px){
-    
-    header{
+    header {
         padding-top: 0px;
     }
-    header h1{
-        font-size: 50px;
+
+        header h1 {
+            font-size: 30px;
+        }
+
+        header h2 {
+            font-size: 20px;
+        }
+
+
+        header h3 {
+            font-size: 9px;
+        }
+
+    .profile-img {
+        margin-top: 10px;
+        height: 100px;
+        width: 130px;
     }
-        header h2{
+
+    nav a {
+        font-size: 7px;
+    }
+
+    .dropbtn {
+        font-size: 7px;
+        padding: 7px;
+    }
+
+    .column {
+        padding: 5px;
+        margin:5px;
+        font-size:12px;
+    }
+
+    .header_content-wrap{
+        width:100%;
+        margin:0px;
+        padding:5px;
+    }
+
+    .btn {
+        font-size:10px;
+        padding: 5px;
+        display: inline-block;
+    }
+
+    .work h2 {
         font-size: 30px;
     }
-    }
-        header h3{
-        font-size: 15px;
-    }
-    .profile-img{
 
-        margin-top: -20px;
-        height: 250px;
-        width: 230px;
+
+    .work h3{
+        font-size:15px;
     }
 
- 
+    .work a{
+        font-size:12px;
+    }
 
+    .work{
+        margin: 0px -25px ;
+    }
+
+    .education {
+        margin: 0px -25px;
+    }
+
+    .contact-info {
+        
+        margin: 0px -25px;
+    }
+
+    footer h2{
+        font-size:35px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
 }
 
 
