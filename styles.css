@@ -1,0 +1,724 @@
+/*Colour pallete
+-----------------
+#5F9EA0 CadeBlue
+#696969 Dimgray
+#663399 Rebbecapurpple
+#008080 Teal
+----------------*/
+
+
+/*Global Styles
+------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h3{
+    margin: 0;
+}
+
+header{
+    padding-top: 30px;
+/*    background: url(../Images/cape-town-table-mountain%20night.jpg) no-repeat fixed 0px 0px /cover;*/
+}
+
+header .column{
+    width: 790px;
+}
+
+header .column h3{
+    color: darkblue;
+}
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.profile-img {
+    height: 350px;
+    border-radius: 40%;
+
+
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+.btn{
+    text-transform: none;
+    background: red;
+    color: white;
+    padding: 10px;
+    display:inline-block;
+}
+body{
+
+   font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.content-wrap {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 10px 60px;
+    overflow: auto;
+}
+
+.header_content-wrap {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 50px 80px;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 80px;
+}
+a{
+    color: blue;
+}
+a:hover{
+    text-decoration: none;
+}
+.kopano h3 {
+    padding-top: 10px;
+
+}
+/*Header and Footer
+--------------------*/
+header{
+
+    background:#696969;
+    color:black;
+
+}
+
+/*
+.onlineConversions {
+    align-content: left;
+    color: red;
+}
+*/
+
+
+.ig{
+    color: deeppink;
+}
+
+.fb{
+    color: blue;
+}
+
+.linkedin{
+    color: blue;
+}
+
+.twitter{
+    color: lightblue;
+}
+
+.mail{
+    color: white;
+}
+
+
+
+ p+h3{
+    margin-top: 25px;
+}
+
+h4~p {
+    margin: 0;
+}
+h3~h4 {
+    margin-bottom:0;
+}
+/* Header
+------------------*/
+header p {
+/*    color: blanchedalmond;*/
+    color: black;
+}
+
+
+.dove{
+    width: 100px;
+    margin-left: 10px;
+    margin-right: -10px;
+    padding-left: 10px;
+    padding-top: 0px;
+    fill: orange;
+}
+
+.cat{
+    width:100px;
+    max-height: 200px;
+    margin-left: 700px;
+    margin-top: -100px;
+
+}
+
+
+
+/* Footer
+------------------*/
+footer{
+    text-align: center;
+    background: url(cape-town-table-mountain%20night.jpg) no-repeat fixed 0px 20px /cover;
+    color: blue;
+}
+
+.copywright {
+    color: orange;
+    font-weight: 900;
+}
+.contact-info a {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    display: inline-block;
+
+}
+/*Navigation
+--------------------*/
+nav {
+    text-align: center;
+    background: black;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+.side-bar {
+    width: 3%;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    background: grey;
+    border-radius: 10%;
+    position: fixed;
+    bottom:15px;
+    margin-left: 94%;
+    text-decoration: none;
+}
+
+.side-bar:hover{
+    background: black;
+}
+
+
+nav a {
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+nav a:hover{
+    text-decoration: underline white;
+}
+
+
+/*Work Experiece
+--------------------*/
+.work{
+/*    background: #DCDCDC;*/
+    background: url(profile3.jpg) no-repeat fixed 0px 20px /cover;
+}
+
+.work a{
+  text-decoration:none;
+  color:red;
+}
+
+h3 ~ p {
+/*    margin: 0;*/
+}
+
+/*Education
+--------------------*/
+.education{
+    background: #696969;
+/*    background: url(../Images/cape-town-table-mountain%20night.jpg)  no-repeat fixed 0px 0px  /cover;*/
+
+
+}
+
+@media(min-width:950px){
+
+    .column-narrow {
+    width: 40%;
+    padding-top: 20px;
+    float: left;
+    min-height: 175px;
+/*    color: lightblue;*/
+/*    border: 1px solid black;*/
+    }
+
+    .column-wide {
+    width: 60%;
+    float: right;
+    padding-left: 200px;
+    padding-top: 20px;
+    min-height: 175px;
+    border: 1px solid none;
+    color: orange;
+    }
+    header .profile-img{
+       
+        height: 300px;
+        width: 230px;
+    }
+
+}
+
+@media(min-width:945px){
+    .column {
+     width: 70%;
+    float: right;
+    padding-left: 25px;
+
+ }
+
+}
+
+@media (min-width:1050px){
+
+    .ball {
+    width: 50px;
+    height: 40px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    animation: bounce 4s ease-out 2s infinite;
+    margin-left: 700px;
+    }
+
+
+    @keyframes bounce{
+        0%{
+            top: 0px;
+        }
+        20% {
+            top: 480px;
+            background: grey;
+    /*        margin-left: 400px;*/
+        }
+
+
+        40% {
+            top: 310px;
+            background: lightblue;
+            margin-left: 400px;
+        }
+
+
+        50% {
+            top: 310px;
+            background: black;
+            margin-left: 170px;
+        }
+
+        70% {
+            top: 480px;
+            background: lightblue;
+            margin-left: 840px;
+        }
+
+        80% {
+            top: 450px;
+            background: red;
+            margin-left: -340px;
+        }
+
+        90% {
+            top: -50px;
+            background: grey;
+            margin-left: -400px;
+        }
+    }
+
+}
+
+
+/*Clock*/
+
+/* Layout */
+.main {
+    width: 25%;
+    float: right;
+    display: flex;
+    max-height: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-right: 150px;
+}
+
+.clockbox,
+#clock {
+    width: 90%;
+    max-height: 350px;
+}
+
+/* Clock styles */
+.circle {
+    fill: #696969;
+    stroke: black;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+
+}
+
+.mid-circle {
+    fill: #696969;
+}
+.hour-marks {
+    fill: none;
+    stroke: black;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.hour-arm {
+    fill:none;
+    stroke: black;
+    stroke-width: 17;
+    stroke-miterlimit: 10;
+}
+
+.minute-arm {
+    fill: none;
+    stroke: black;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.second-arm {
+    fill: none;
+    stroke: black;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+/* Transparent box ensuring arms center properly. */
+.sizing-box {
+    fill: none;
+}
+
+/* Make all arms rotate around the same center point. */
+/* Optional: Use transition for animation. */
+#hour,
+#minute,
+#second {
+    transform-origin: 300px 300px;
+    /* transition: transform .5s ease-in-out; */
+}
+
+@media (max-width:1220px){
+    header .column{
+    width: 100%;
+    }
+
+    header{
+    text-align: center;
+    }
+  
+    .btn {
+  position: absolute;
+  right: 0;
+    }
+
+}
+
+
+
+@media (max-width:1030px){
+
+    nav a {
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    }
+
+    .cat{
+    width:50px;
+    margin-left: 220px;
+    margin-top: -100px;
+    }
+
+    .dove{
+    width: 70px;
+    margin-left: 100px;
+    padding-top: -50px;
+    fill: blue;
+    }
+
+
+
+.contact-info a {
+    text-align: center;
+    font-size: 30px;
+    padding: 2px;
+    display: inline-block;
+
+    }
+      header{
+    text-align: center;
+    }
+
+    .btn {
+  position: absolute;
+  right: 0;
+    }
+    
+    /*Clock*/
+
+    /* Layout */
+    .main {
+        width: 35%;
+        float: right;
+        display: flex;
+        max-height: 0px;
+        align-items: center;
+        margin-right: 16px;
+    }
+
+    .clockbox,
+    #clock {
+        width: 80%;
+        max-height: 150px;
+    }
+
+    /* Clock styles */
+    .circle {
+        fill: #696969;
+        stroke: black;
+        stroke-width: 9;
+        stroke-miterlimit: 10;
+
+    }
+
+    .mid-circle {
+        fill: #696969;
+    }
+    .hour-marks {
+        fill: none;
+        stroke: black;
+        stroke-width: 9;
+        stroke-miterlimit: 10;
+    }
+
+    .hour-arm {
+        fill:none;
+        stroke: black;
+        stroke-width: 17;
+        stroke-miterlimit: 10;
+    }
+
+    .minute-arm {
+        fill: none;
+        stroke: black;
+        stroke-width: 11;
+        stroke-miterlimit: 10;
+    }
+
+    .second-arm {
+        fill: none;
+        stroke: black;
+        stroke-width: 4;
+        stroke-miterlimit: 10;
+    }
+
+    /* Transparent box ensuring arms center properly. */
+    .sizing-box {
+        fill: none;
+    }
+
+    /* Make all arms rotate around the same center point. */
+    /* Optional: Use transition for animation. */
+    #hour,
+    #minute,
+    #second {
+        transform-origin: 300px 300px;
+        /* transition: transform .5s ease-in-out; */
+    }
+    
+    
+}
+
+
+.dropbtn {
+        background-color: black;
+        color: white;
+        padding: 16px;
+        font-weight: 700;
+        font-size: 16px;
+        border: none;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+/*        min-width: 160px;*/
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-weight: 100;
+        font-size: 15px;
+}
+
+
+
+
+
+.dropdown-content a:hover {background-color: red; text-decoration: none;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: black; text-decoration: underline white}
+
+@media (max-width:668px){
+    
+    
+    .side-bar {
+    width: 5%;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    background: grey;
+    border-radius: 10%;
+    position: fixed !important;
+    bottom:15px;
+    margin-left: 94%;
+    text-decoration: none;
+}
+
+.side-bar:hover{
+    background: black;
+}
+
+
+    header {
+        padding-top: 20px;
+    }
+
+        header h1 {
+            font-size: 30px;
+        }
+
+        header h2 {
+            font-size: 20px;
+        }
+
+
+        header h3 {
+            font-size: 9px;
+        }
+
+    .profile-img {
+        margin-top: 10px;
+        height: 120px;
+        width: 150px;
+    }
+
+    nav a {
+        font-size: 7px;
+    }
+
+    .dropbtn {
+        font-size: 7px;
+        padding: 7px;
+    }
+
+    .column {
+        padding: 5px;
+        margin:5px;
+        font-size:12px;
+    }
+
+    .header_content-wrap{
+        width:100%;
+        margin:0px;
+        padding:5px;
+    }
+
+    .btn {
+        font-size:10px;
+        padding: 5px;
+        display: inline-block;
+    }
+
+    .work h2 {
+        font-size: 30px;
+        
+    }
+
+
+    .work h3{
+        font-size:15px;
+    }
+
+    .work a{
+        font-size:12px;
+    }
+
+    .work {
+        background: white;
+      
+     }
+
+    .content-wrap {
+        margin-left: -20px;
+    }
+
+     
+
+ 
+
+    footer h2{
+        font-size:35px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
